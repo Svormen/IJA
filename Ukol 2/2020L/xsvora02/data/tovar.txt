@@ -1,0 +1,60 @@
+Respirátor:20
+Dezinfekcia:18
+Teplomer:12
+Dron:13
+Telefón:8
+Počítač:9
+Monitor:1
+Tablet:10
+Televízor:11
+Fotoaparát:18
+Pamäťová karta:2
+Batéria:6
+Hodinky:7
+Procesor:13
+Grafická karta:19
+Disk:15
+Pamäť RAM:14
+Chladenie:3
+Zvuková karta:16
+PlayStation 5:6
+PlayStation 4:9
+Xbox ONE:18
+Xbox 360:4
+Nintendo:20
+Virtuálna realita:16
+Klávesnica:5
+Myš:8
+Sluchadlá:18
+Kreslo:14
+Mikrofón:10
+Rádio:18
+Nabíjačka:11
+Podložka:20
+Chladnička:17
+Práčka:4
+Sušička:7
+Mraznička:8
+Umývačka:19
+Sporák:16
+Zastrihávač:12
+Zubná kefka:17
+Zubná pasta:15
+Šampón:14
+Osuška:19
+Tričko:17
+Nohavice:20
+Tepláky:19
+Košela:4
+Mikina:6
+Bunda:9
+Stôl:20
+Stolička:15
+Žiarovka:14
+Vankúš:18
+Obrus:12
+Kvetináč:6
+Pohár:7
+Tanier:8
+Nožík:1
+Varecha:16

@@ -1,0 +1,39 @@
+<project>
+
+    <target name="clean">
+        <delete dir="build"/>
+    </target>
+
+    <target name="ant compile">
+        <mkdir dir="build"/>
+        <javac srcdir="src" destdir="build" encoding="UTF-8"/>
+        <mkdir dir="dest"/>
+        <jar destfile="dest/ija-app.jar" basedir="build">
+            <fileset dir="src"/>
+            <manifest>
+                <attribute name="Main-Class" value="Main"/>
+            </manifest>
+        </jar>
+    </target>
+
+    <target name="ant run">
+        <java jar="dest/ija-app.jar" fork="true"/>
+    </target>
+
+    <!--
+    <target name="clean-doc">
+        <delete dir="doc/doc"/>
+    </target>
+    -->
+
+    <target name="doc">
+        <mkdir dir="doc"/>
+        <javadoc locale="sk_SK" sourcepath="src"
+                 packagenames="Gui, Code"
+                 destdir="doc" version="true" windowtitle="IJA PROJEKT" charset="UTF-8">
+            <doctitle><![CDATA[<h1>IJA PROJEKT</h1>]]></doctitle>
+            <bottom><![CDATA[<i>Autor: Jozef Čásar, Slavomír Svorada</i>]]></bottom>
+        </javadoc>
+    </target>
+
+</project>
